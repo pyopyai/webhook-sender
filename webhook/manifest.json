@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Webhook Sender",
+  "version": "0.1.0",
+  "permissions": ["contextMenus", "storage", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Webhook Sender" },
+  "options_page": "options.html",
+  "icons": {
+    "16": "hello_extensions.png",
+    "48": "hello_extensions.png",
+    "128": "hello_extensions.png"
+  }
+}
