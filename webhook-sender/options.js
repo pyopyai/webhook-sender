@@ -1,4 +1,4 @@
-const API = typeof browser !== "undefined" ? browser : API;
+const API = typeof browser !== "undefined" ? browser : chrome;
 
 (async () => {
   const input = document.getElementById("url");

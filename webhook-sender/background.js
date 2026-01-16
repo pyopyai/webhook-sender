@@ -1,6 +1,6 @@
 const MENU_PAGE = "send_page";
 const MENU_IMAGE = "send_image";
-const API = typeof browser !== "undefined" ? browser : API;
+const API = typeof browser !== "undefined" ? browser : chrome;
 
 
 async function getWebhookUrl() {
