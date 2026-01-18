@@ -1,21 +1,25 @@
 
 # webhook-sender
 
-## これはなに？
-
-discordのサーバをURL/画像クリップサービスとして使うための拡張機能。ブラウザで開いているサイトを右クリックメニューからwebhookを通じてdiscordに送る。
+DiscordサーバーをURL/画像クリップ置き場として使うためのブラウザ拡張
+開いているページのURLや選択した画像をWebhookを通じてDiscordに送る
 
 [![Image from Gyazo](https://i.gyazo.com/ac52b102a308b6af7b7000074934ad41.gif)](https://gyazo.com/ac52b102a308b6af7b7000074934ad41)
 
+## できること
+
+- 開いているページの URL を Discord に送る
+- 画像 URL（または画像）を Discord に送る（右クリックから）
+
 ## つかいかた
 
-### discordサーバーにおけるwebhookの取得方法
+### 1. Discord 側で Webhook を作る
 
-がんばってください
+Discord のチャンネル設定から Webhook を作成し、Webhook URL をコピー
 参考:
 [Intro to Webhooks – Discord](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
 
-### 拡張機能にwebhookのURLを登録する
+### 2.拡張機能にwebhookのURLを登録する
 
 インストール後、`オプション`からwebhookの設定を済ませてください
 
@@ -26,7 +30,7 @@ discordのサーバをURL/画像クリップサービスとして使うための
 Savedが出れば完了です\
 [![Image from Gyazo](https://i.gyazo.com/f835191956789a12d6ad9104d31a6b46.png)](https://gyazo.com/f835191956789a12d6ad9104d31a6b46)
 
-### Webhookにおくる
+### 3. Webhookにおくる
 
 右クリックメニューから選択
 
@@ -39,7 +43,6 @@ Savedが出れば完了です\
 ## firefoxユーザーへ
 
 一応chrome用に作ってあります。firefoxで使う際は、`manifest.firefox.json`を`manifest.json`に`manifest.json`は`manifest.chrome.json`に書き換えてください
-
 
 ## 参考
 
